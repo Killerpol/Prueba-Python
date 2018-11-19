@@ -1,0 +1,28 @@
+Teoria Git
+
+Es un sistema de control de versiones
+
+Caracteristica:
+- Es distribuido por varias personas para que puedan trabajar en equipo
+
+Instalacion :
+En CMD :
+Primero debemos registrarnos nuestro "USUARIO" y "EMAIL" mediante :
+git config --global user.name  "Jose Luis "
+git config --global user.email aldairxd11@hotmail.com
+
+para comprobar si registro o no , mendiante :
+git config --list
+
+En Visual Code : 
+-Se debe instalar GitLens
+-Luego se hace Git Clone y ponemos nuestro URL de github donde hemos creado en github un repositorio
+-El Git Clone muestra todo lo contenido de repositorio remoto (archivos , readme , etc)
+
+Funcion de git en Visual Code :
+
+Git Push:
+Empuja el contenido donde esta el servidor local hacia al servidor remoto (GitHub)
+
+Git Pull:
+Trae los cambios de nuestro repositorio remoto y actualiza al repositorio local.
